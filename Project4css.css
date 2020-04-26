@@ -1,0 +1,129 @@
+ body{background-color:lightskyblue;}
+ div.background
+ {
+
+            background-image: url(pic1.png), url(pic2.png); 
+            background-position: bottom right, 10% center;
+            background-origin: border-box, content-box;
+            background-repeat:   no-repeat, repeat;
+ }
+ div.content
+ {
+   padding: 10px 15px;
+   color :white;
+   font-size:150%;
+ }
+
+ nav
+ { 
+   margin-top: 10px;
+   margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  border: 2px solid RoyalBlue;
+  text-align: center;
+  width: 10em;
+  background-color: RoyalBlue; 
+}
+  
+nav ul 
+{ 
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+}
+nav:hover ul    
+{ 
+  display: block; 
+}
+nav ul li
+{ 
+  border-top: 2px solid RoyalBlue;
+  background-color: white;
+  width: 10em;
+  color: black; 
+}
+nav ul li:hover 
+{ 
+  background-color: PowderBlue; 
+}
+a 
+{
+   text-decoration: none; 
+}
+h1
+{
+  margin-top: 100px;
+  color: white;
+  background:gold;
+}
+  *{
+    box-sizing: border-box;
+  }
+  .column{
+    float:left;
+    padding:10px;
+    column-gap:40px;
+  }
+  .left{
+    width:25%;
+    
+    }
+    #theMenu { 
+      width: 300px; 
+     }
+
+ul li a.menuLink {
+      display: block;
+      padding-left: 30px;
+      }
+      footer{
+            font-weight: bold;
+            text-align: center;
+
+      }
+
+  .right{
+    width:60%;
+  }
+  h2{
+    color:purple;
+    font-weight: bold;
+    text-align: center;
+  }
+    #sortable {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 820px;
+    }
+
+#sortable li {
+      margin: 3px;
+      padding: 3px;
+      float: left;
+}
+
+#sortable li img {
+      width: 256px;
+      height: 192px;
+}
+
+h2 a {
+      float: right;
+      display: inline-block;
+      font-size: .8em;
+      padding: 8px;
+      text-decoration: none;
+      background-color: silver;
+      border: 1px solid gray;
+      margin: -5px 25px 0 0;
+}
+
+  
+  .row:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
